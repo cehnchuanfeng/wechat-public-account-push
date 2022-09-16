@@ -60,9 +60,9 @@ export const config = {
       // 想要发送的人的名字
       name: "甜甜可爱",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oBkLL58eUy12dS51io378S2XKZME",
+      id: "oBkLL59X3EQB2J9RAm9DdnhxABJc",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "grFWituaXC1rPuuH7Mm6fLx1LL6CT1W3wm98H9P2zhs",
+      useTemplateId: "	arrPBRMgbwsjQMQGZl6CQGEhqCPna_e8FlEVIw0Ct7E",
       // 所在省份
       province: "贵州",
       // 所在城市
@@ -176,8 +176,6 @@ export const config = {
    * --- 是否展示周岁信息结束 ---
    */
   FESTIVALS: [
-    // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "甜甜宝贝", "year": "2003", "date": "03-13", isShowAge: true},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {"type": "生日", "name": "甜甜宝贝", "year": "2003", "date": "03-13", isShowAge: true},
     // 你可以不断按格式往下增加
